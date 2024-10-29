@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TVX Dentist Clinic</title>
+
+		<!-- Meta -->
+		<meta name="description" content="Marketplace for Bootstrap Admin Dashboards" />
+		<meta name="author" content="TVX Dentist Clinic" />
+		<link rel="canonical" href="https://www.bootstrap.gallery/">
+		<meta property="og:url" content="https://www.bootstrap.gallery">
+		<meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+		<meta property="og:type" content="Website">
+		<meta property="og:site_name" content="Bootstrap Gallery">
+		<link rel="shortcut icon" href="assets/images/logotvx.png" />
+
+		<!-- *************
+			************ CSS Files *************
+		************* -->
+		<link rel="stylesheet" href="assets/fonts/bootstrap/bootstrap-icons.css" />
+		<link rel="stylesheet" href="assets/css/main.min.css" />
+		<link rel="stylesheet" href="assets/css/customize.css" />
+        
+
+		<!-- *************
+			************ Vendor Css Files *************
+		************ -->
+
+		<!-- Scrollbar CSS -->
+		<link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css" />
+
+		<!-- Date Range CSS -->
+		<link rel="stylesheet" href="assets/vendor/daterange/daterange.css" />
+	</head>
+
+	<body>
+		<!-- Page wrapper start -->
+		<div class="page-wrapper">
+
+			<!-- Main container start -->
+			<div class="main-container">
+
+				<!-- Sidebar wrapper start -->
+				<nav id="sidebar" class="sidebar-wrapper">
+
+					<!-- App brand starts -->
+					<div class="app-brand px-3 py-2 d-flex align-items-center">
+						<a href="index.html">
+							<img src="assets/images/logotvx_fullchu.jpg" alt="Bootstrap Gallery" height="40px"/>
+							
+						</a>
+					</div>
+					<!-- App brand ends -->
+
+					<!-- Sidebar menu starts -->
+					<div class="sidebarMenuScroll">
+						<ul class="sidebar-menu">
+							<li >
+								<a href="khambenh.html">
+									<i class="bi bi-pen"></i>
+									<span class="menu-text" style="white-space: nowrap;">Khám bệnh</span>
+								</a>
+							</li>
+							<li>
+								<a href="henkham.html">
+									<i class="bi bi-journal-text"></i>
+									<span class="menu-text" style="white-space: nowrap;">Danh sách hẹn khám</span>
+								</a>
+							</li>
+							<li class="active current-page">
+								<a href="benhnhan.html">
+									<i class="bi bi-clipboard-plus"></i>
+									<span class="menu-text" style="white-space: nowrap;">Thêm bệnh nhân</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="benhnhannoitru.html">
+									<i class="bi bi-postcard-heart"></i>
+									<span class="menu-text" style="white-space: nowrap;">Danh sách đang khám</span>
+									
+								</a>
+							</li>
+							<li>
+								<a href="benhnhandakham.html">
+									<i class="bi bi-card-checklist"></i>
+									<span class="menu-text" style="white-space: nowrap;">Bệnh nhân ra viện</span>
+								</a>
+							
+                            <li >
+								<a href="DanhSach.html">
+									<i class="bi bi-wallet2"></i>
+									<span class="menu-text" style="white-space: nowrap;">Thanh toán</span>
+								</a>
+							</li>
+							
+						</ul>
+					</div>
+					<!-- Sidebar menu ends -->
+
+				</nav>
+				<!-- Sidebar wrapper end -->
+
+				<!-- App container starts -->
+				<div class="app-container">
+
+					<!-- App header starts -->
+					<div class="app-header d-flex align-items-center">
+
+						<!-- Toggle buttons start -->
+						<div class="d-flex">
+							<button class="btn btn-outline-primary me-2 toggle-sidebar" id="toggle-sidebar">
+								<i class="bi bi-text-indent-left fs-5"></i>
+							</button>
+							<button class="btn btn-outline-primary me-2 pin-sidebar" id="pin-sidebar">
+								<i class="bi bi-text-indent-left fs-5"></i>
+							</button>
+						</div>
+						<!-- Toggle buttons end -->
+
+						<!-- App brand sm start -->
+						<div class="app-brand-sm d-md-none d-sm-block">
+							<a href="index.html">
+								<img src="assets/images/logotvx.png" class="logo" alt="TVX Dentist Clinic">
+							</a>
+						</div>
+						<!-- App brand sm end -->
+
+						<!-- Breadcrumb start -->
+						<ol class="breadcrumb d-none d-lg-flex ms-3">
+							<li class="breadcrumb-item">
+								<i class="bi bi-house lh-1"></i>
+								<a href="index.html" class="text-decoration-none">Home</a>
+							</li>
+							<li class="breadcrumb-item text-secondary">Thanh toán</li>
+						</ol>
+						<!-- Breadcrumb end -->
+
+						<!-- App header actions start -->
+						<div class="header-actions">
+							<div class="dropdown">
+								<a class="dropdown-toggle d-flex px-3 py-4 position-relative" href="#!" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="assets/images/flags/1x1/vn.svg" class="flag-img" alt="TVX Dentist Clinic" />
+								</a>
+								<div class="dropdown-menu dropdown-menu-end shadow-sm dropdown-menu-mini">
+									<div class="country-container">
+										<a href="index.html" class="py-2">
+											<img src="assets/images/flags/1x1/gb.svg" alt="Admin Panel" />
+										</a>
+										
+									</div>
+								</div>
+							</div>
+							
+							
+							<div class="dropdown border-start">
+								<a class="dropdown-toggle d-flex px-3 py-4 position-relative" href="#!" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bi bi-envelope-open fs-4 lh-1 text-secondary"></i>
+									<span class="count-label"></span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end dropdown-menu-md shadow-sm">
+									<a href="javascript:void(0)" class="dropdown-item">
+										<div class="d-flex py-2">
+											<i class="bi bi-bell" style="font-size: 15px; width: 20px;"></i>
+											<div class="m-0">
+												
+												<h5 class="mb-1">Thông báo</h5>
+												<p class="mb-1 text-secondary">
+													Bạn đã đi làm 
+														<span class="text-danger text-semibold">10/14</span> buổi trong tuần trước
+												</p>
+												<p class="small m-0 text-secondary">Today, 07:30am</p>
+											</div>
+										</div>
+									</a>
+									<a href="javascript:void(0)" class="dropdown-item">
+										<div class="d-flex py-2">
+											<i class="bi bi-bar-chart" style="font-size: 15px; width: 20px;"></i>
+											<div class="m-0">
+												<h5 class="mb-1">Thống kê</h5>
+												<p class="mb-1 text-secondary">
+													Hôm nay bạn đã khám cho
+                          								<span class="text-success text-semibold">8</span> bệnh nhân.
+												</p>
+												<p class="small m-0 text-secondary">Today, 09:30pm</p>
+											</div>
+										</div>
+									</a>
+									<div class="d-grid mx-3 my-3">
+										<a href="javascript:void(0)" class="btn btn-primary">View all</a>
+									</div>
+								</div>
+							</div>
+							<div class="dropdown ms-2">
+								<a id="userSettings" class="dropdown-toggle d-flex py-2 align-items-center text-decoration-none"
+									href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="assets/images/TNT Studio (962).jpg" class="rounded-2 img-3x" alt="Bootstrap Gallery" />
+								</a>
+								<div class="dropdown-menu dropdown-menu-end shadow-sm">
+									<div class="p-3 border-bottom mb-2">
+										<h6 class="mb-1">Nguyễn Đức Xuân</h6>
+										<p class="m-0 small opacity-50">nguyenducxuan@gmail.com</p>
+									</div>
+									<a class="dropdown-item d-flex align-items-center" href="canhan.html"><i
+                                        class="bi bi-person fs-4 me-2"></i>Thông tin</a>
+                                <a class="dropdown-item d-flex align-items-center" href="canhan.html"><i
+                                        class="bi bi-gear fs-4 me-2"></i>Đổi mật khẩu</a>
+                                <div class="d-grid p-3 py-2">
+                                    <a class="btn btn-danger" href="login.html">Đăng xuất</a>
+                                </div>
+								</div>
+							</div>
+						</div>
+						<!-- App header actions end -->
+
+					</div>
+					<!-- App header ends -->
+
+					<!-- App body starts -->
+                    <style>
+                        .ngang{
+                            display: flex;
+                            position: relative;
+                            border-bottom: 1px solid rgb(163, 157, 157);
+                        }
+                        .nut{
+                            position: absolute;
+                            right: 30px;
+							bottom: 7px;
+                        }
+                    </style>
+					<div class="app-body">
+                        <div class="card-header ngang mb-2">
+                            <ul class="nav nav-pills text-uppercase">
+                                <li class="nav-item">
+                                  <a class="nav-link " href="khambenh.html">Danh sách</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="benhnhan.html">Đăng ký khám</a>
+                                  </li>
+                                <li class="nav-item">
+                                  <a class="nav-link " href="khamlamsang.html">Khám lâm sàng</a>
+                                </li>
+                               
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="thutiendskham.html">Thu tiền</a>
+                                  </li>
+                              </ul>
+                        </div>
+						<!-- Container starts -->
+						<!-- Container starts -->
+						<div class="container-fluid">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-4 col-12">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <img class="w-100 ms-2 mt-2" src="data:image/png;base64,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" alt="">
+                                            </div>
+                                            <div class="col-8">
+                                            
+                                                <p class="m-0">Mã BN: <span class="fw-bold">BN006</span> </p>
+                                                <p class="m-0">Họ Tên: <span class="fw-bold text-danger text-uppercase">Lê Phương Linh</span></p>
+                                                <p class="m-0">Ngày sinh: <span class="fw-bold">2000</span></p>
+                                                <p class="m-0">Giới tính: <span class="fw-bold">Nữ</span></p>
+                                                <p class="m-0">Tuổi: <span class="fw-bold">24</span></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-8 col-sm-4 col-12">
+                                    <div class="d-flex justify-content-end gap-2 mb-2">
+                                        <button type="button" class="btn btn-success">
+                                            <i class="bi bi-plus-square"></i> Thêm phiếu (F2)
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                            <i class="bi bi-sticky"></i> Lưu (F4)
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                            <i class="bi bi-sticky"></i> Xuất thuốc (F6)
+                                        </button>
+                                        <button type="button" class="btn btn-primary">
+                                            <i class="bi bi-sticky"></i> Xuất HĐĐT
+                                        </button>
+                                        
+                                        <button type="button" class="btn btn-primary">
+                                            <i class="bi bi-printer"></i> In bảng kê
+                                        </button>
+                                            
+        
+                                    </div>
+                                    <div class="card mt-3" style="background-color: rgb(226, 224, 244);">
+                                        <div class="d-flex justify-content-around text-primary pt-2 pb-2">
+                                            <div class="logott">
+                                                <i class="fs-3 bi bi-house-door-fill logottic"></i>
+                                                <div class="ms-1"> Phòng khám TVX</div>
+                                            </div>
+                                            <style>
+                                                .logott{
+                                                    position: relative;
+                                                }
+                                                .logottic{
+                                                    position: absolute;
+                                                    left: -25px;
+                                                    top: -10px;
+                                                }
+                                            </style>
+                                            <div class="logott">
+                                                <i class="fs-3 bi bi-people-fill logottic"></i>
+                                                <div class="ms-1">Thu ngân: <span>Trần Thu Hằng</span> </div>
+                                            </div>
+                                            <div class="logott">
+                                        
+                                                <div class="ms-1">Trạng thái: <span>Đang khám</span> </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							
+							<!-- Row start -->
+							<div class="row gx-3 mt-3">
+								<div class="col-xxl-12">
+									<div class="card mb-3">
+										
+										<div class="card-body">
+											<!-- Row start -->
+											
+                                                <p class="fw-bold">1.Dịch vụ chưa thanh toán</p>
+                                                <div class="d-flex">
+                                                    <div>
+                                                        <input class="form-check-input" type="checkbox" value="option1" checked />
+                                                        <span>Chưa thu tiền</span>
+                          
+                                                    </div>
+                                                    <div class="ms-3">
+                                                        <input class="form-check-input" type="checkbox" value="option1"/>
+                                                        <span>Đã thu tiền</span>
+                                                    </div>
+                                                </div>
+                                                <div class="row mt-2" >
+                                                   
+                                                    <table class="ms-1 table table-bordered">
+                                                        <thead>
+                                                            <tr style="background-color: rgb(231, 238, 242);">
+                                                                
+                                                                <th><input class="form-check-input me-2" type="checkbox" value="option1" checked/>Nội dung</th>
+                                                                <th>ĐVT</th>
+                                                                <th>SL</th>
+                                                                <th>SL thu</th>
+                                                                <th>Đơn giá</th>
+                                                                <th>Thành tiền</th>
+                                                                <th>Miễn giảm</th>
+                                                                <th>BN chỉ trả</th>
+                                                                <th>Thu tiền</th>
+                                                                <th>% MG</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr >
+                                                                
+                                                                <td class="ps-0 fw-bold icdvk" style="border: 0;">
+                                                                    <select class="form-select fw-bold" id="validationCustom04" required="" fdprocessedid="87dm0o">
+                                                                        <option class="">
+                                                                            Dịch vụ khám
+                                                                        </option>
+                                                                        <option>TN01- Nhổ răng</option>
+                                                                        <option>TN02- Trồng răng</option>
+                                                                        <option>TN03- Lấy cao răng</option>
+                                                                        <option>TN04- Kiểm tra tổng quát</option>
+                                                                        <option>TN05- Chữa sâu răng</option>
+                                                                        <option>TN06- Niềng răng</option>
+                                                                        <option>TN07- Tẩy trắng răng</option>
+                                                                        <option>TN08- Bọc răng sứ</option>
+                                                            
+                                                                    </select>
+                                                                    <!-- <i class="fs-3 bi bi-chevron-down icdvkc"></i></td> -->
+                                                             
+                                                            </tr>
+                                                            <ul class="dropdown-menu icdvkcmn">
+                                                                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                                              </ul>
+                                                            <tr>
+                                                                <td><input class="form-check-input me-2" type="checkbox" value="option1" checked/>Bọc răng sứ</td>
+                                                                <td class="text-center">Lần</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-25 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="3"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="3"></td>
+                                                                <td class="text-center">3.000.000,00</td>
+                                                                <td class="text-center">9.000.000,00</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-100 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                                <td class="text-center">9.000.000,00</td>
+                                                                <td class="text-center"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                            </tr>
+                                                           
+                                                            <tr >
+                                                                
+                                                                <td class="ps-0 fw-bold icdvk" style="border: 0;">
+                                                                    <select class="form-select fw-bold" id="validationCustom04" required="" fdprocessedid="87dm0o">
+                                                                        <option class="">
+                                                                            Chẩn đoán hình ảnh
+                                                                        </option>
+                                                                        <option>HA01- X-quang khoang miệng</option>
+                                                                        <option>HA02- Nội soi khoang miệng</option>
+                                                                        <option>HA03- X-quang khớp cắn</option>
+                                                                        
+                                                                    </select>
+                                                                    <!-- <i class="fs-3 bi bi-chevron-down icdvkc"></i></td> -->
+                                                             
+                                                            </tr>
+                                                            <ul class="dropdown-menu icdvkcmn">
+                                                                <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                                                <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                                                <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                                              </ul>
+                                                            <tr>
+                                                                <td><input class="form-check-input me-2" type="checkbox" value="option1" checked/>X-quang khoang miệng</td>
+                                                                <td class="text-center">Lần</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-25 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-100 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input class="form-check-input me-2" type="checkbox" value="option1" checked/>Nội soi khoang miệng</td>
+                                                                <td class="text-center">Lần</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-25 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center">150.000,00</td>
+                                                                <td class="text-center">150.000,00</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-100 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                                <td class="text-center">150.000,00</td>
+                                                                <td class="text-center"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td><input class="form-check-input me-2" type="checkbox" value="option1" checked/>X-quang khớp cắn</td>
+                                                                <td class="text-center">Lần</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-25 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy" value="1"></td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-100 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                                <td class="text-center">100.000,00</td>
+                                                                <td class="text-center"></td>
+                                                                <td class="text-center"><input type="text" class="form-control-dien-50 " id="validationCustom01" required="" placeholder="" fdprocessedid="wxztoy"></td>
+                                                            </tr>
+                                                           
+                                                        </tbody>
+                                                    </table>
+                                                    <div class="d-flex justify-content-end mb-5">
+                                                        <div>
+                                                            <small class="text-primary">Tạm ứng: <span class="text-danger">0.000</span></small>
+                                                        </div>
+                                                        <div class="ms-2">
+                                                            <small class="text-primary">Đã thanh toán: <span class="text-danger">0.000</span></small>
+                                                        </div>
+                                                        <div class="ms-2">
+                                                            <small class="text-primary">Còn thiếu: <span class="text-danger">9.350.000</span></small>
+                                                        </div>
+                                                    </div>
+                                                        
+                                                        
+                                                    </div>
+                                                    <style>
+                                                        
+                                                    </style>
+                                                    <div class="row gx-3">
+                                                        <div class="col-xxl-12">
+                                                            <div class="card mb-3">
+                                                                
+                                                                <div class="card-body">
+                                                                    <!-- Row start -->
+                                                                    
+                                                                        <p class="fw-bold">Áp dụng gói khám</p>
+                                                                        <div class="row">
+                                                                            <div class="col-10">
+                                                                                <div class="d-flex">
+                                                                                    <select class="form-select" id="validationCustom04" required="" fdprocessedid="k06su4">
+                                                                                        <option selected="" value="">
+                                                                                            Chọn gói khám
+                                                                                        </option>
+                                                                                        <option selected="">GK01- Tiêu chuẩn</option>
+                                                                                        <option>GK02- Nâng cao</option>
+                                                                                        <option>GK03- Cao cấp</option>
+                                                                                        
+                                                                                    </select>
+                                                                            <button type="button" class="btn btn-primary">Xem</button>
+                                                                        </div>
+                                                                 
+                                                                            </div>
+                                                                        </div>
+                                                                               
+                                                                       
+                                                                    <!-- Row end -->
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                                    <div class="row gx-3">
+                                                        <div class="col-xxl-12">
+                                                            <div class="card mb-3">
+                                                                
+                                                                <div class="card-body">
+                                                                    <!-- Row start -->
+                                                                    
+                                                                        <p class="fw-bold">Thông tin phiếu thu</p>
+                                                                        <div class="row">
+                                                                            <div class="col-5">
+                                                                                <div class="ngaythu">
+                                                                                    <h6 class="fw-normal">Ngày thu</h6>
+                                                                                    <input type="text" class="form-control" value="28/03/2024 17:28:39">
+            
+                                                                                    <i class="fs-3 bi bi-calendar-check-fill"></i>
+                                                                            
+                                                                                </div>
+                                                                                
+                                                                                
+                                                                                <div class="mt-3 chonso">
+                                                                                    <h6 class="fw-normal">Chọn sổ</h6>
+                                                                                    <input type="text" class="form-control" value="Phiếu thu">
+                                                                                    <div class="ic">
+                                                                                        <i class="fs-3 bi bi-chevron-expand"></i>
+                                                                                        
+                                                                                    </div>
+                                                                                    
+                                                                                </div>
+                                                                                <div class="mt-3 chonso">
+                                                                                    <h6 class="fw-normal">Hình thức</h6>
+                                                                                    <input type="text" class="form-control" value="Tiền mặt">
+                                                                                    <div class="ic">
+                                                                                        <i class="fs-3 bi bi-chevron-expand"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="mt-3">
+                                                                                    <h6 class="fw-normal">Ghi chú</h6>
+                                                                                    <textarea name="" id="" class="form-control"></textarea>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-5">
+                                                                                <div>
+                                                                                    <h6 class="fw-normal">Số tiền</h6>
+                                                                                    <input type="text" class="form-control" value="9.350.000,00">
+                                                                                </div>
+                                                                                <div class="mt-3 d-flex">
+                                                                                    <div>
+                                                                                        <h6 class="fw-normal">Chiết khấu</h6>
+                                                                                        <input type="text" class="form-control" value="0,00">
+                                                                                    </div>
+                                                                                    <div class="ms-2">
+                                                                                        <h6 class="fw-normal">Tỷ lệ CK (%)</h6>
+                                                                                        <input type="text" class="form-control">
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="mt-3">
+                                                                                    <h6 class="fw-normal">Tạm ứng</h6>
+                                                                                    <input type="text" class="form-control bg-primary text-light" value="0,00" >
+                                                                                </div>
+                                                                                <div class="mt-3">
+                                                                                    <h6 class="fw-normal">Thực thu</h6>
+                                                                                    <input type="text" class="form-control bg-primary text-light" value="9.350.000,00" >
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                       
+                                                                    <!-- Row end -->
+                                                                </div>
+                                                                
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+
+                                            </div>
+											<!-- Row end -->
+                                            
+                                            
+                                        </div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+                            
+							<!-- Row end -->
+								<!-- Row start -->
+                                
+								<!-- Row end -->
+							<!-- Row start -->
+							
+							<!-- Row end -->
+
+						</div>
+						<!-- Container ends -->
+						<!-- Container ends -->
+
+					</div>
+					<!-- App body ends -->
+
+					<!-- App footer start -->
+					<div class="app-footer">
+						<span>© TVX Dentist Clinic 2024</span>
+					</div>
+					<!-- App footer end -->
+
+				</div>
+				<!-- App container ends -->
+
+			</div>
+			<!-- Main container end -->
+
+		</div>
+		<!-- Page wrapper end -->
+
+		<!-- *************
+			************ JavaScript Files *************
+		************* -->
+		<!-- Required jQuery first, then Bootstrap Bundle JS -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+		<!-- *************
+			************ Vendor Js Files *************
+		************* -->
+
+		<!-- Overlay Scroll JS -->
+		<script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
+		<script src="assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+
+		<!-- Moment JS -->
+		<script src="assets/js/moment.min.js"></script>
+
+		<!-- Date Range JS -->
+		<script src="assets/vendor/daterange/daterange.js"></script>
+		<script src="assets/vendor/daterange/custom-daterange.js"></script>
+
+		<!-- Custom JS files -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+
+</html>

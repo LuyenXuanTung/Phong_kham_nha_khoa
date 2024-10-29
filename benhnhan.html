@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>TVX Dentist Clinic</title>
+
+		<!-- Meta -->
+		<meta name="description" content="Marketplace for Bootstrap Admin Dashboards" />
+		<meta name="author" content="TVX Dentist Clinic" />
+		<link rel="canonical" href="https://www.bootstrap.gallery/">
+		<meta property="og:url" content="https://www.bootstrap.gallery">
+		<meta property="og:title" content="Admin Templates - Dashboard Templates | Bootstrap Gallery">
+		<meta property="og:description" content="Marketplace for Bootstrap Admin Dashboards">
+		<meta property="og:type" content="Website">
+		<meta property="og:site_name" content="Bootstrap Gallery">
+		<link rel="shortcut icon" href="assets/images/logotvx.png" />
+
+		<!-- *************
+			************ CSS Files *************
+		************* -->
+		<link rel="stylesheet" href="assets/fonts/bootstrap/bootstrap-icons.css" />
+		<link rel="stylesheet" href="assets/css/main.min.css" />
+
+		<!-- *************
+			************ Vendor Css Files *************
+		************ -->
+
+		<!-- Scrollbar CSS -->
+		<link rel="stylesheet" href="assets/vendor/overlay-scroll/OverlayScrollbars.min.css" />
+
+		<!-- Date Range CSS -->
+		<link rel="stylesheet" href="assets/vendor/daterange/daterange.css" />
+	</head>
+
+	<body>
+		<!-- Page wrapper start -->
+		<div class="page-wrapper">
+
+			<!-- Main container start -->
+			<div class="main-container">
+
+				<!-- Sidebar wrapper start -->
+				<nav id="sidebar" class="sidebar-wrapper">
+
+					<!-- App brand starts -->
+					<div class="app-brand px-3 py-2 d-flex align-items-center">
+						<a href="index.html">
+							<img src="assets/images/logotvx_fullchu.jpg" alt="Bootstrap Gallery" height="40px"/>
+							
+						</a>
+					</div>
+					<!-- App brand ends -->
+
+					<!-- Sidebar menu starts -->
+					<div class="sidebarMenuScroll">
+						<ul class="sidebar-menu">
+							<li >
+								<a href="khambenh.html">
+									<i class="bi bi-pen"></i>
+									<span class="menu-text" style="white-space: nowrap;">Khám bệnh</span>
+								</a>
+							</li>
+							<li>
+								<a href="henkham.html">
+									<i class="bi bi-journal-text"></i>
+									<span class="menu-text" style="white-space: nowrap;">Danh sách hẹn khám</span>
+								</a>
+							</li>
+							<li class="active current-page">
+								<a href="benhnhan.html">
+									<i class="bi bi-clipboard-plus"></i>
+									<span class="menu-text" style="white-space: nowrap;">Thêm bệnh nhân</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="benhnhannoitru.html">
+									<i class="bi bi-postcard-heart"></i>
+									<span class="menu-text" style="white-space: nowrap;">Danh sách đang khám</span>
+									
+								</a>
+							</li>
+							<li>
+								<a href="benhnhandakham.html">
+									<i class="bi bi-card-checklist"></i>
+									<span class="menu-text" style="white-space: nowrap;">Bệnh nhân ra viện</span>
+								</a>
+							</li>
+							
+							<li>
+								<a href="DanhSach.html">
+									<i class="bi bi-wallet2"></i>
+									<span class="menu-text" style="white-space: nowrap;">Thanh toán</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<!-- Sidebar menu ends -->
+
+				</nav>
+				<!-- Sidebar wrapper end -->
+
+				<!-- App container starts -->
+				<div class="app-container">
+
+					<!-- App header starts -->
+					<div class="app-header d-flex align-items-center">
+
+						<!-- Toggle buttons start -->
+						<div class="d-flex">
+							<button class="btn btn-outline-primary me-2 toggle-sidebar" id="toggle-sidebar">
+								<i class="bi bi-text-indent-left fs-5"></i>
+							</button>
+							<button class="btn btn-outline-primary me-2 pin-sidebar" id="pin-sidebar">
+								<i class="bi bi-text-indent-left fs-5"></i>
+							</button>
+						</div>
+						<!-- Toggle buttons end -->
+
+						<!-- App brand sm start -->
+						<div class="app-brand-sm d-md-none d-sm-block">
+							<a href="index.html">
+								<img src="assets/images/logotvx.png" class="logo" alt="TVX Dentist Clinic">
+							</a>
+						</div>
+						<!-- App brand sm end -->
+
+						<!-- Breadcrumb start -->
+						<ol class="breadcrumb d-none d-lg-flex ms-3">
+							<li class="breadcrumb-item">
+								<i class="bi bi-house lh-1"></i>
+								<a href="index.html" class="text-decoration-none">Home</a>
+							</li>
+							<li class="breadcrumb-item text-secondary">Đăng ký khám bệnh</li>
+						</ol>
+						<!-- Breadcrumb end -->
+
+						<!-- App header actions start -->
+						<div class="header-actions">
+							<div class="dropdown">
+								<a class="dropdown-toggle d-flex px-3 py-4 position-relative" href="#!" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="assets/images/flags/1x1/vn.svg" class="flag-img" alt="TVX Dentist Clinic" />
+								</a>
+								<div class="dropdown-menu dropdown-menu-end shadow-sm dropdown-menu-mini">
+									<div class="country-container">
+										<a href="index.html" class="py-2">
+											<img src="assets/images/flags/1x1/gb.svg" alt="Admin Panel" />
+										</a>
+										
+									</div>
+								</div>
+							</div>
+							
+							
+							<div class="dropdown border-start">
+								<a class="dropdown-toggle d-flex px-3 py-4 position-relative" href="#!" role="button"
+									data-bs-toggle="dropdown" aria-expanded="false">
+									<i class="bi bi-envelope-open fs-4 lh-1 text-secondary"></i>
+									<span class="count-label"></span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-end dropdown-menu-md shadow-sm">
+									<a href="javascript:void(0)" class="dropdown-item">
+										<div class="d-flex py-2">
+											<i class="bi bi-bell" style="font-size: 15px; width: 20px;"></i>
+											<div class="m-0">
+												
+												<h5 class="mb-1">Thông báo</h5>
+												<p class="mb-1 text-secondary">
+													Bạn đã đi làm 
+														<span class="text-danger text-semibold">10/14</span> buổi trong tuần trước
+												</p>
+												<p class="small m-0 text-secondary">Today, 07:30am</p>
+											</div>
+										</div>
+									</a>
+									<a href="javascript:void(0)" class="dropdown-item">
+										<div class="d-flex py-2">
+											<i class="bi bi-bar-chart" style="font-size: 15px; width: 20px;"></i>
+											<div class="m-0">
+												<h5 class="mb-1">Thống kê</h5>
+												<p class="mb-1 text-secondary">
+													Hôm nay bạn đã khám cho
+                          								<span class="text-success text-semibold">8</span> bệnh nhân.
+												</p>
+												<p class="small m-0 text-secondary">Today, 09:30pm</p>
+											</div>
+										</div>
+									</a>
+									<div class="d-grid mx-3 my-3">
+										<a href="javascript:void(0)" class="btn btn-primary">View all</a>
+									</div>
+								</div>
+							</div>
+							<div class="dropdown ms-2">
+								<a id="userSettings" class="dropdown-toggle d-flex py-2 align-items-center text-decoration-none"
+									href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									<img src="assets/images/TNT Studio (962).jpg" class="rounded-2 img-3x" alt="Bootstrap Gallery" />
+								</a>
+								<div class="dropdown-menu dropdown-menu-end shadow-sm">
+									<div class="p-3 border-bottom mb-2">
+										<h6 class="mb-1">Nguyễn Đức Xuân</h6>
+										<p class="m-0 small opacity-50">nguyenducxuan@gmail.com</p>
+									</div>
+									<a class="dropdown-item d-flex align-items-center" href="canhan.html"><i
+										class="bi bi-person fs-4 me-2"></i>Thông tin</a>
+								<a class="dropdown-item d-flex align-items-center" href="canhan.html"><i
+										class="bi bi-gear fs-4 me-2"></i>Đổi mật khẩu</a>
+								<div class="d-grid p-3 py-2">
+									<a class="btn btn-danger" href="login.html">Đăng xuất</a>
+								</div>
+								</div>
+							</div>
+						</div>
+						<!-- App header actions end -->
+
+					</div>
+					<!-- App header ends -->
+
+					<!-- App body starts -->
+                    <style>
+                        .ngang{
+                            display: flex;
+                            position: relative;
+                        }
+                        .nut{
+                            position: absolute;
+                            right: 30px;
+							bottom: 7px;
+                        }
+                    </style>
+					<div class="app-body">
+						<div class="card-header ngang mb-0">
+                            <ul class="nav nav-pills text-uppercase">
+                                <li class="nav-item">
+                                  <a class="nav-link " href="khambenh.html">Danh sách</a>
+                                </li>
+								<li class="nav-item">
+									<a class="nav-link active" href="benhnhan.html">Đăng ký khám</a>
+								  </li>
+                                <li class="nav-item">
+                                  <a class="nav-link " href="khamlamsang.html">Khám lâm sàng</a>
+                                </li>
+                              
+                                <li class="nav-item">
+                                    <a class="nav-link " href="thutiendskham.html">Thu tiền</a>
+                                  </li>
+                              </ul>
+                        </div>
+						<hr class="mt-0">
+						<!-- Container starts -->
+						<!-- Container starts -->
+						<div class="container-fluid">
+							<div class="d-flex gap-2 justify-content-end mb-2">
+								<a type="button" class="btn btn-info" href="khamlamsang.html">
+									<i class="bi bi-plus-square"></i> Thêm mới
+								</a>
+								<button type="button" class="btn btn-warning">
+									<i class="bi bi-pencil-square"></i> Sửa
+								</button>
+								<button type="button" class="btn btn-success">
+									<i class="bi bi-sticky"></i> Lưu
+								</button>
+								<button type="button" class="btn btn-primary">
+									<i class="bi bi-printer"></i> In phiếu
+								</button>
+								
+								<button type="button" class="btn btn-outline-secondary">
+									Cancel
+								</button>
+
+							</div>
+							<!-- Row start -->
+							<div class="row gx-3">
+								<div class="col-xxl-12">
+									<div class="card mb-3">
+										<div class="card-header ngang">
+											<h5 class="card-title">Bệnh nhân</h5>
+											
+										</div>
+										<div class="card-body">
+											<!-- Row start -->
+											<div class="row gx-3">
+												<div class="mb-3">
+													<div class="col-lg-6 col-sm-6 col-12">
+													<label class="form-label text-primary">Tìm kiếm:</label>
+													<div class="input-group ">
+														<input type="text" class="form-control" placeholder="Tìm số bệnh nhân, họ tên, CCCD, SDT" autofocus="">
+														<button class="btn btn-primary" type="button">
+															Search
+														</button>
+													</div>
+													</div>
+												</div>
+												
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Số bệnh nhân:</label>
+														<div class="was-validated">
+															<input type="text" class="form-control" id="validationCustom01" required="" placeholder="Số bệnh nhân" value="206"/>
+														</div>
+														
+														
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Họ và tên:</label>
+														<div class="was-validated">
+														<input type="text" class="form-control" id="validationCustom01" required=""  
+														placeholder="Họ và tên bệnh nhân" value="Nguyễn Văn An"/>
+														</div>
+													</div>
+												</div>
+												
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Giới tính</label>
+														<div class="was-validated">
+													<select class="form-select" id="validationCustom04" >
+														<option selected=""  value="">
+															Nam
+														</option>
+														<option>Nữ</option>
+														<option>Khác</option>
+													</select>
+												</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														
+														<div class="m-0">
+															<div class="form-label">Ngày sinh/ Tuổi</div>
+															<div class="input-group">
+																
+																
+																<input type="text" class="form-control datepickerC" />
+																
+																<input type="text" class="form-control" placeholder="" id="validationCustom01" required=""  value="25"/>
+															
+															</div>
+															
+														</div>
+														
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Số CMT/CCCD</label>
+														<div class="was-validated">
+														<input type="text" class="form-control" id="validationCustom01" required=""  
+														placeholder="Số CMT/ CCCD" value="089635494532"/>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Số điện thoại</label>
+														<div class="was-validated">
+														<input type="text" class="form-control" id="validationCustom01" required="" placeholder="SDT" value="0123456789"/>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Email</label>
+														<input type="text" class="form-control" placeholder="Email" value="nguyenvana@gmail.com"/>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Nghề nghiệp</label>
+														<select class="form-select" id="validationCustom04" required="">
+															<option selected="" disabled="" value="">
+																Nghề nghiệp
+															</option>
+															<option>Công chức</option>
+															<option>Công nhân</option>
+															<option>Giáo viên</option>
+															<option>Học sinh</option>
+															<option>Sinh viên</option>
+														</select>
+														
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Quốc tịch</label>
+														<div class="was-validated">
+															<select class="form-select" id="validationCustom04" required="">
+																<option selected=""  value="">
+																	Quốc tịch
+																</option>
+																<option selected>Việt Nam</option>
+																<option>Hoa Kỳ</option>
+																<option>Trung Quốc</option>
+																<option>Hàn Quốc</option>
+																<option>Thái Lan</option>
+																
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Tỉnh/ TP</label>
+														<div class="was-validated">
+															<select class="form-select" id="validationCustom04" required="">
+																<option selected=""  value="">
+																	Tỉnh/ TP
+																</option>
+																<option selected>Hà Nội</option>
+																<option>Nam Định</option>
+																<option>Vĩnh Phúc</option>
+																
+															</select>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Quận/ Huyện</label>
+														<div class="was-validated">
+														<select class="form-select" id="validationCustom04" required="">
+															<option selected=""  value="">
+																Quận/ Huyện
+															</option>
+															<option>Cầu Giấy</option>
+															<option selected>Bắc Từ Liêm</option>
+															<option>Nam Từ Liêm</option>
+															<option>Hoàng Mai</option>
+															<option>Hà Đông</option>
+															
+														</select>
+													</div>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Phường/ Xã</label>
+														<select class="form-select" id="validationCustom04" required="">
+															<option selected=""  value="">
+																Phường Xã
+															</option>
+															<option>Phường Đông Ngạc </option>
+															<option>Phường Liên Mạc </option>
+															<option selected>Phường Minh Khai </option>
+															<option>Phường Phú Diễn </option>
+															<option>Phường Phúc Diễn </option>
+															<option>Phường Tây Tựu </option>
+															
+															
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Thôn/Làng/Đường</label>
+														<input type="text" class="form-control" placeholder="Thôn/Làng/Đường" value="Cầu Diễn"/>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Số nhà</label>
+														<input type="text" class="form-control" placeholder="Số nhà" value="20"/>
+													</div>
+												</div>
+												<div class="col-lg-6 col-sm-8 col-12">
+													<div class="mb-3">
+														<label class="form-label">Địa chỉ</label>
+														<input type="text" class="form-control" placeholder="Địa chỉ bệnh nhân" 
+														value="Bắc Từ Liêm - Hà Nội"/>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Người nhà</label>
+														<select class="form-select" id="validationCustom04" required="">
+															<option selected="" disabled value="">
+																Người nhà
+															</option>
+															<option>Bố</option>
+															<option>Mẹ</option>
+															<option>Anh trai</option>
+															<option>Chị gái</option>
+															<option>Ông</option>
+															<option>Bà</option>
+															<option>Khác</option>
+															<option selected>Không</option>
+												
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-3 col-sm-4 col-12">
+													<div class="mb-3">
+														<label class="form-label">Tiền sử bệnh</label>
+														<input type="text" class="form-control" placeholder="Tiền sử bệnh" 
+														value="Không"/>
+													</div>
+												</div>
+												<div class="col-sm-6 col-12">
+													<div class="mb-3">
+														<label class="form-label">Ghi chú</label>
+														<textarea class="form-control" placeholder="Enter message" rows="3"></textarea>
+													</div>
+												</div>
+												
+												
+												
+											</div>
+											<!-- Row end -->
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<!-- Row end -->
+								<!-- Row start -->
+								<div class="row gx-3">
+									<div class="col-xxl-12">
+										<div class="card mb-3">
+											<div class="card-header">
+												<h5 class="card-title">Bảo hiểm Y Tế</h5>
+											</div>
+											<div class="card-body">
+												<!-- Row start -->
+												<div class="row gx-3">
+													<div class="col-lg-4 col-sm-4 col-12">
+														<div class="mb-3">
+															<div class="d-flex ngang">
+																<label class="form-label">Bảo hiểm y tế</label>
+																<div class="form-check was-validated nut">
+																	<input type="checkbox" class="form-check-input" id="validationFormCheck1" required="" checked>
+																	<label class="form-check-label" for="validationFormCheck1">Có</label>
+																</div>
+															</div>
+															<input type="text" class="form-control" placeholder="Mã số BHYT" value="SV4-465-8790-3333" />
+														</div>
+													</div>
+													
+													<div class="col-lg-1 col-sm-1 col-12"></div>
+													<div class="col-lg-3 col-sm-3 col-12">
+														<div class="mb-3">
+															<label class="form-label">Tuyến</label>
+															<div class=" d-grid">
+																<div class="form-check">
+																	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked="">
+																	<label class="form-check-label" for="flexRadioDefault1">Đúng tuyến</label>
+																</div>
+																<div class="form-check">
+																	<input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+																	<label class="form-check-label" for="flexRadioDefault2">Sai tuyến</label>
+																</div>
+																
+															</div>
+														</div>
+													</div>
+													
+													<div class="col-lg-4 col-sm-4 col-12">
+														<div class="mb-3">
+															<label class="form-label">Mức hưởng</label>
+															<div class=" d-grid">
+																<div class="form-check">
+																	<input class="form-check-input" type="radio" name="flexRadioDefaultmh" id="flexRadioDefault1" checked="">
+																	<label class="form-check-label" for="flexRadioDefault1">80%</label>
+																</div>
+																<div class="form-check">
+																	<input class="form-check-input" type="radio" name="flexRadioDefaultmh" id="flexRadioDefault2" >
+																	<label class="form-check-label" for="flexRadioDefault2">20%</label>
+																</div>
+																<div class="form-check">
+																	<input class="form-check-input" type="radio" name="flexRadioDefaultmh" id="flexRadioDefault3" >
+																	<label class="form-check-label" for="flexRadioDefault3">0%</label>
+																</div>
+																
+															</div>
+														</div>
+													</div>
+													
+												</div>
+												
+												<!-- Row end -->
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<!-- Row end -->
+							<!-- Row start -->
+							<div class="row gx-3">
+								<div class="col-xxl-12">
+									<div class="card mb-3">
+										<div class="card-header">
+											<h5 class="card-title">Thông tin phiếu</h5>
+										</div>
+										<div class="card-body">
+											<!-- Row start -->
+											<div class="row gx-3">
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label">Mã đăng ký khám</label>
+													<div class="was-validated">
+														<input type="text" class="form-control" id="validationCustom01" required="" placeholder="Số bệnh nhân" value="206"/>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label">Ngày khám</label>
+													<div class="input-group">
+														<input type="text" class="form-control datepicker-time-24">
+														<span class="input-group-text">
+															<i class="bi bi-calendar4"></i>
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label"></label>
+													<div>
+														<div class="form-check form-check-inline">
+															<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+															<label class="form-check-label" for="inlineCheckbox1">Cấp cứu</label>
+														</div>
+														<div class="form-check form-check-inline">
+															<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+															<label class="form-check-label" for="inlineCheckbox2">Ưu tiên khám</label>
+														</div>
+														
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label">Dịch vụ</label>
+													<div class="was-validated">
+													<select class="form-select" id="validationCustom04" required="">
+														<option selected=""  value="">
+															Dịch vụ
+														</option>
+														<option>TN01- Nhổ răng</option>
+														<option>TN02- Trồng răng</option>
+														<option>TN03- Lấy cao răng</option>
+														<option>TN04- Kiểm tra tổng quát</option>
+														<option>TN05- Chữa sâu răng</option>
+														<option>TN06- Niềng răng</option>
+														<option>TN07- Tẩy trắng răng</option>
+														<option selected>TN08- Bọc răng sứ</option>
+											
+													</select>
+												</div>
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label">Phòng khám</label>
+													<div class="was-validated">
+													<select class="form-select" id="validationCustom04" required="">
+														<option selected=""  value="">
+															Phòng khám
+														</option>
+														<option>PK01- Phòng khám tổng hợp</option>
+														<option>PK02- Phòng khám cấy ghép</option>
+														<option selected>PK03- Phòng khám chuyên sâu</option>
+														
+													</select>
+												</div>
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3">
+													<label class="form-label">Loại hình</label>
+													
+													<select class="form-select" id="validationCustom04" required="">
+														<option selected=""  value="">
+															Khám mới
+														</option>
+														<option>Khám lại</option>
+														<option>Khám định kỳ</option>
+														
+														
+													</select>
+												
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3">
+													<label class="form-label">Thứ tự khám</label>
+													<input type="text" class="form-control" id="validationCustom01" required="" placeholder="Thứ tự khám" value="2"/>
+													
+												</div>
+											</div>
+											<div class="col-lg-8 col-sm-8 col-12">
+												<div class="mb-3">
+													<label class="form-label">Lý do khám</label>
+													<input type="text" class="form-control" id="validationCustom01" required="" placeholder="Lý do khám" value="Cần bọc răng sứ"/>
+													
+												</div>
+											</div>
+											<div class="col-lg-4 col-sm-4 col-12">
+												<div class="mb-3">
+													<label class="form-label">Chọn gói khám</label>
+													
+													<select class="form-select" id="validationCustom04" required="">
+														<option selected=""  value="">
+															Chọn gói khám
+														</option>
+														<option selected>GK01- Tiêu chuẩn</option>
+														<option>GK02- Nâng cao</option>
+														<option >GK03- Cao cấp</option>
+														
+													</select>
+												
+												</div>
+											</div>
+											<div class="col-lg-1 col-sm-1 col-12">
+												<div class="mb-3 mt-3">
+													<label class="form-label fs-4">Chỉ số</label>
+												</div>
+											</div>
+											<div class="col-lg-3 col-sm-3 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Cân nặng (kg)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value="60"/>
+												</div>
+											</div>
+											<div class="col-lg-1 col-sm-1 col-12"></div>
+											<div class="col-lg-3 col-sm-3 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Chiều cao (cm)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value="175"/>
+												</div>
+											</div>
+											<div class="col-lg-1 col-sm-1 col-12"></div>
+											<div class="col-lg-3 col-sm-3 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Nhiệt độ (oC)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value="36.5"/>
+												</div>
+											</div>
+											<div class="col-lg-1 col-sm-1 col-12"></div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Nhịp thở (l/p)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>
+												</div>
+											</div>
+											<div class="col-lg-3 col-sm-3 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Huyết áp</label>
+													<div class="d-flex">
+														<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>/
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>
+													</div>
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">Mạch (l/p)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">SPO2 (%)</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>
+												</div>
+											</div>
+											<div class="col-lg-2 col-sm-2 col-6">
+												<div class="mb-3 ">
+													<label class="form-label">BMI</label>
+													<input type="text" class="form-control" id="validationCustom01" 
+													required="" placeholder=""value=""/>
+												</div>
+											</div>
+										</div>
+											<!-- Row end -->
+										</div>
+										
+									</div>
+								</div>
+							</div>
+							<!-- Row end -->
+
+						</div>
+						<!-- Container ends -->
+						<!-- Container ends -->
+
+					</div>
+					<!-- App body ends -->
+
+					<!-- App footer start -->
+					<div class="app-footer">
+						<span>© TVX Dentist Clinic 2024</span>
+					</div>
+					<!-- App footer end -->
+
+				</div>
+				<!-- App container ends -->
+
+			</div>
+			<!-- Main container end -->
+
+		</div>
+		<!-- Page wrapper end -->
+
+		<!-- *************
+			************ JavaScript Files *************
+		************* -->
+		<!-- Required jQuery first, then Bootstrap Bundle JS -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+		<!-- *************
+			************ Vendor Js Files *************
+		************* -->
+
+		<!-- Overlay Scroll JS -->
+		<script src="assets/vendor/overlay-scroll/jquery.overlayScrollbars.min.js"></script>
+		<script src="assets/vendor/overlay-scroll/custom-scrollbar.js"></script>
+
+		<!-- Moment JS -->
+		<script src="assets/js/moment.min.js"></script>
+
+		<!-- Date Range JS -->
+		<script src="assets/vendor/daterange/daterange.js"></script>
+		<script src="assets/vendor/daterange/custom-daterange.js"></script>
+
+		<!-- Custom JS files -->
+		<script src="assets/js/custom.js"></script>
+	</body>
+
+</html>
